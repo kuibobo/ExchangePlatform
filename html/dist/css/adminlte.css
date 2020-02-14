@@ -30011,3 +30011,19 @@ a.text-muted:hover {
   color: #ffffff;
 }
 /*# sourceMappingURL=adminlte.css.map */
+
+.row-actions {
+    color: #ddd;
+    font-size: 13px;
+    padding: 2px 0 0;
+    position: relative;
+    left: -9999em;
+}
+
+.row-actions a {
+    color: #0073aa;
+}
+
+tr:hover .row-actions, .row-actions.visible {
+    position: static;
+}
